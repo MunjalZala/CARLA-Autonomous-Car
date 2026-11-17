@@ -1,0 +1,14 @@
+OFFLINE CONTROLLER CHECKS — Python 3.10.11
+No CARLA server was used. These checks use simplified movement models and synthetic sensor events.
+CARLA connection, actual sensors, vehicle physics, and map compatibility are not verified.
+
+test_avoidance_path_clears_parked_car_in_bicycle_model (test_controller.ControllerTests) ... ok
+test_collision_callback_records_the_hit_actor (test_controller.ControllerTests) ... ok
+test_sensor_retains_nearest_fresh_event_and_expires_old_events (test_controller.ControllerTests) ... ok
+test_stops_with_standoff_in_simple_longitudinal_model (test_controller.ControllerTests) ... ok
+test_sudden_close_obstacle_cuts_throttle_and_commands_full_brake (test_controller.ControllerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
